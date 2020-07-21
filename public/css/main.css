@@ -1,0 +1,85 @@
+
+.task-wrapper {
+    text-align: left;
+}
+
+.pagination button{
+    margin: 0 1px;
+}
+.task {
+    border: 1px solid black;
+}
+
+.popup-container{
+    display: none;
+    width:100%;
+    min-height:100%;
+    background-color: rgba(0,0,0,0.5);
+    overflow:hidden;
+    position:fixed;
+    top:0px;
+}
+.createTask__form,
+.login-user__form,
+.settings-task__form{
+    position: relative;
+    top: 25vh;
+    background: #fff;
+    padding: 10px;
+}
+.img-close__form,
+.img-close__form-set{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 25px;
+    right: 50px;
+}
+.img-close__form:hover,
+.img-close__form-set{
+    cursor: pointer;
+}
+
+.btn-pagination{
+    display: none;
+}
+.failedInput{
+    border: 1px solid red;
+}
+
+.required,
+.required-login{
+    color: red;
+    position: absolute;
+    right: 10px;
+}
+.sort{
+    margin-top: 60px;
+}
+.create-task{
+    display: none;
+}
+.login{
+    display: none;
+}
+.settings-task{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    /*top: 10px;*/
+    right: 20px;
+    cursor: pointer;
+}
+
+
+
+
+
+/*
+    -----------
+ */
+@media screen and (max-width: 700px){
+    table, button {
+        font-size: 10px !important;
+    }
+}
